@@ -294,19 +294,35 @@ footer a {
 
 @media only screen and (max-width:688px) {
     header {
-        width: 100%;
-        display: none;
+        width: 100%;        
     }
 
     .nav-icon-details {
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
         grid-column-gap: 5px;
+        font-size: 1em;
     }
-
-    .Committed-to-success {
+    .nab-bar{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .nab-bar .logo{
         display: none;
+    }
+    .nab-bar .logo img{
+        width: 100px;
+        height: 20px;
+        margin-left: 1px;
+    }
+    .nav>.nav-ul li {
+        margin-right: 8px;
+    }
+    .Committed-to-success {
+        width: 100%;
+        background-size: cover;
     }
 
     .container {
