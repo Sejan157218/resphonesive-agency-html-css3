@@ -157,7 +157,7 @@ main {
 }
 
 .committed {
-    font-size: 30px;
+    font-size: 1em;
     padding-top: 100px;
     color: #6d71b3;
 }
@@ -393,3 +393,56 @@ footer a {
         font-size: 1em;
     }
 }
+@media only screen and (min-width:993px){
+    header {
+        width: 100%;        
+    }
+    body{
+        margin: 2%;
+    }
+
+    .nav-icon-details {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-column-gap: 5px;
+        font-size: 1em;
+    }
+    .nab-bar{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .nab-bar .logo{
+        display: none;
+    }
+    .nab-bar .logo img{
+        width: 100px;
+        height: 20px;
+        margin-left: 1px;
+    }
+    .nav>.nav-ul li {
+        margin-right: 8px;
+    }
+    .Committed-to-success {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .best-services,
+    .team-member,.blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
